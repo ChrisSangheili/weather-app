@@ -13,7 +13,7 @@ window.addEventListener('load', ()=>{
             //console.log(position);
             
             const proxy = "https://cors-anywhere.herokuapp.com/"; 
-            const api = `http://api.weatherstack.com/current?access_key=fe277ab3f7809f615e9582a0cdd9dbcc&query=mexico`;
+            const api = `${proxy}http://api.weatherstack.com/current?access_key=fe277ab3f7809f615e9582a0cdd9dbcc&query=mexico`;
             /*
             //const api = `${proxy}https://api.darksky.net/forecast/fd9d9c6418c23d94745b836767721ad/${latitud},${long}`;
             const api = `${proxy}https://api.openweathermap.org/data/2.5/onecall?lat=${latitud}&lon=${long}&appid={9fba32284ad39ff767ac678913f4d0e2}`;
